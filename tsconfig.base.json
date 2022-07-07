@@ -1,0 +1,30 @@
+{
+  // "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": false,
+    "target": "es2016",
+    "module": "commonjs",
+    "lib": ["es2020"],
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {},
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "removeComments": true,
+    "resolveJsonModule": true,
+    "declaration": true,
+    "strictNullChecks": true
+  },
+  "exclude": ["node_modules", "tmp", ".serverless", "dist", ".build", "**/*.spec.ts"]
+}

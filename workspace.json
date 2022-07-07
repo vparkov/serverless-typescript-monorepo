@@ -1,0 +1,6 @@
+{
+  "version": 2,
+  "projects": {
+    "templateBackendService": "stacks/template-backend-service"
+  }
+}
